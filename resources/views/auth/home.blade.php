@@ -44,12 +44,7 @@
             </div>
 
 		<div class="tm-gallery-section tm-mb-80">
-			<ul class="filters-button-group tm-mb-40">
-				<li><a href="#" data-filter=".city">한식</a></li>
-				<li><a href="#" data-filter=".nature">중식</a></li>
-				<li><a href="#" data-filter=".portraits">양식</a></li>
-				<li><a href="#" class="active" data-filter="*">Show All</a></li>
-			</ul>
+
 			<div class="tm-gallery">
 
                 @foreach($boards as $board)
@@ -61,67 +56,9 @@
                 </div>
                  @endforeach
 
-				<div class="tm-gallery-item city portraits">
-		            <a href="img/img-01.jpg">
-		            	<img src="stroage/img/tn-img-01.jpg" alt="City Scape" class="img-fluid" />
-		            </a>
-                    <h2>연어 리스 샐러드</h2>
-		        </div>
-				<div class="tm-gallery-item portraits">
-		            <a href="img/img-02.jpg">
-		            	<img src="stroage/img/tn-img-02.jpg" alt="Beautiful Lady" class="img-fluid" />
-		            </a>
-		        </div>
-				<div class="tm-gallery-item city">
-		            <a href="img/img-03.jpg">
-		            	<img src="stroage/img/tn-img-03.jpg" alt="City over cloud" class="img-fluid" />
-		            </a>
-		        </div>
-		        <div class="tm-gallery-item nature">
-		            <a href="img/img-04.jpg">
-		            	<img src="stroage/img/tn-img-04.jpg" alt="Autumn Forest" class="img-fluid" />
-		            </a>
-		        </div>
-				<div class="tm-gallery-item city">
-		            <a href="img/img-05.jpg">
-		            	<img src="stroage/img/tn-img-05.jpg" alt="Skyscrapers Reflected" class="img-fluid" />
-		            </a>
-		        </div>
-				<div class="tm-gallery-item city">
-		            <a href="img/img-06.jpg">
-		            	<img src="stroage/img/tn-img-06.jpg" alt="City Night" class="img-fluid" />
-		            </a>
-		        </div>
-		        <div class="tm-gallery-item nature portraits">
-		            <a href="img/img-07.jpg">
-		            	<img src="stroage/img/tn-img-07.jpg" alt="Gallery item" class="img-fluid" />
-		            </a>
-		        </div>
-				<div class="tm-gallery-item nature">
-		            <a href="img/img-08.jpg">
-		            	<img src="stroage/img/tn-img-08.jpg" alt="Gallery item" class="img-fluid" />
-		            </a>
-		        </div>
-				<div class="tm-gallery-item nature">
-		            <a href="img/img-09.jpg">
-		            	<img src="stroage/img/tn-img-09.jpg" alt="Gallery item" class="img-fluid" />
-		            </a>
-		        </div>
-		        <div class="tm-gallery-item nature portraits">
-		            <a href="img/img-10.jpg">
-		            	<img src="stroage/img/tn-img-10.jpg" alt="Gallery item" class="img-fluid" />
-		            </a>
-		        </div>
-				<div class="tm-gallery-item nature">
-		            <a href="img/img-11.jpg">
-		            	<img src="stroage/img/tn-img-11.jpg" alt="Gallery item" class="img-fluid" />
-		            </a>
-		        </div>
-				<div class="tm-gallery-item portraits">
-		            <a href="img/img-12.jpg">
-		            	<img src="stroage/img/tn-img-12.jpg" alt="Gallery item" class="img-fluid" />
-		            </a>
-		        </div>
+
+
+
 			</div>
 		</div>
 

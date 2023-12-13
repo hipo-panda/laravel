@@ -60,7 +60,6 @@
                 <div>
 
                     <button class="sendDataButton" type="submit">등록</button>
-                    <button class="sendDataButton" type="button">취소</button>
 
                 </div>
             </div>

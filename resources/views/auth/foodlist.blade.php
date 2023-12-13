@@ -50,13 +50,13 @@
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script>
 		$(function(){
-		  	// Init the image gallery
+
 		  	var $gallery = $(".tm-gallery").isotope({
 		    	itemSelector: ".tm-gallery-item",
 		    	layoutMode: "fitRows"
 		  	});
 
-		  	// Layout Isotope after each image loads
+
 		  	$gallery.imagesLoaded().progress(function() {
 		    	$gallery.isotope("layout");
 		  	});
@@ -69,7 +69,7 @@
 			    $(this).addClass('active');
 			});
 
-		  	// Magnific Pop up
+
 		  	$('.tm-gallery').magnificPopup({
 		  		delegate: 'a',
 			  	type: 'image',

@@ -10,9 +10,9 @@ class Board extends Model
     use HasFactory;
 
 
-    protected $table = 'boards'; // 모델과 연결할 테이블 이름
+    protected $table = 'boards';
 
-    protected $primaryKey = 'board_id'; // 기본 키의 이름 (기본값은 'id')
+    protected $primaryKey = 'board_id';
 
     protected $fillable = [
         'board_title',
@@ -23,6 +23,5 @@ class Board extends Model
         'board_tags',
         'board_image',
         'name',
-        // 다른 필드를 추가할 경우 여기에 추가
     ];
 }

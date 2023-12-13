@@ -45,7 +45,7 @@
                         <option value="option2">중식</option>
                         <option value="option3">양식</option>
                         <option value="option3">없음</option>
-                        <!-- 추가적인 옵션들 추가 가능 -->
+
                     </select>
                 </div>
 
@@ -61,7 +61,6 @@
 
                 <div>
                     <button class="sendDataButton" type="submit">등록</button>
-                    <button class="sendDataButton" type="button">취소</button>
                 </div>
             </div>
         </form>

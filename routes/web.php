@@ -16,6 +16,10 @@ use App\Http\Controllers\BoardController;
 |
 */
 
+Route::get('/', function () {
+    return view('./auth.home');
+});
+
 Route::get('/home', function () {
     return view('./auth.home');
 });
@@ -39,7 +43,7 @@ Route::post('/post', [BoardController::class, 'store']);
 
 
 Route::get('/dashboard', function () {
-    return view('dashboard');
+    return view('auth.home');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
