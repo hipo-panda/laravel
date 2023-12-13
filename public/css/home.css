@@ -1,0 +1,199 @@
+/*
+
+Tooplate 2122 Nano Folio
+
+https://www.tooplate.com/view/2122-nano-folio
+
+*/
+
+@font-face {
+    font-family: "Cafe24Shiningstar";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Shiningstar.woff")
+        format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GowunBatang-Regular";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff")
+        format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "GowunBatang-Regular";
+    font-size: 18px;
+    line-height: 2em;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.3s ease;
+    color: #38cccc;
+}
+
+a:hover {
+    color: #30adad;
+}
+
+.tm-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    font-weight: 600;
+    padding-bottom: 8%;
+}
+
+.tm-title h1 {
+    font-size: 2rem;
+    color: #30adad;
+}
+
+.tm-title h1::before,
+.tm-title h1::after {
+    content: ""; /* 가상 요소의 내용을 빈 문자열로 설정합니다. */
+    display: inline-block; /* 인라인 블록 요소로 표시합니다. */
+    width: 1px; /* 원하는 선의 너비를 설정합니다. */
+    height: 22px; /* 원하는 선의 높이를 설정합니다. */
+    background-color: black; /* 선의 색상을 설정합니다. */
+    margin: 0 15px;
+}
+
+.tm-container-fluid {
+    width: 100%;
+    max-width: 970px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 60px 15px;
+    font-family: "GowunBatang-Regular";
+}
+
+.recomended-container {
+    display: flex;
+    margin-bottom: 20%;
+}
+
+.left-block {
+    flex: 1;
+}
+
+.left-block img {
+    width: 100%; /* 이미지가 부모 요소에 꽉 차게 설정 */
+    height: auto; /* 비율을 유지한 채로 크기 조정 */
+    border-radius: 12px;
+}
+
+.right-block {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 3%;
+}
+
+.right-block img {
+    width: 48%; /* 작은 이미지를 두 개씩 나란히 표시하도록 설정 */
+    padding-bottom: 4%;
+    border-radius: 12px;
+}
+
+.tm-gallery {
+    margin: -10px;
+    display: flex;
+}
+
+.tm-gallery-item {
+    border-radius: 12px;
+    margin: 10px;
+    padding-bottom: 6%;
+    font-weight: 600;
+    overflow: hidden;
+    text-align: center;
+}
+
+.tm-gallery-item a {
+    display: block;
+    line-height: 0;
+}
+
+.tm-gallery-item img {
+    width: 220px;
+    height: 220px;
+    padding-bottom: 8px;
+}
+
+@media (max-width: 489px) {
+    .tm-gallery-item {
+        width: 48%;
+        margin: 1%;
+        height: auto;
+    }
+
+    .tm-gallery-item img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.tm-mb-0 {
+    margin-bottom: 0;
+}
+.tm-mb-30 {
+    margin-bottom: 30px;
+}
+.tm-mb-40 {
+    margin-bottom: 40px;
+}
+.tm-mb-50 {
+    margin-bottom: 50px;
+}
+.tm-mb-80 {
+    margin-bottom: 80px;
+}
+
+.filters-button-group {
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+
+.filters-button-group li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+
+.filters-button-group li a.active {
+    color: #f96699;
+}
+
+@media (max-width: 940px) {
+    .filters-button-group {
+        text-align: left;
+    }
+}
+
+.tm-p-50 {
+    padding: 50px;
+}
+.tm-mb-0 {
+    margin-bottom: 0;
+}
+.tm-mb-30 {
+    margin-bottom: 30px;
+}
+.tm-mb-40 {
+    margin-bottom: 40px;
+}
+.tm-mb-50 {
+    margin-bottom: 50px;
+}
+.tm-mb-80 {
+    margin-bottom: 80px;
+}

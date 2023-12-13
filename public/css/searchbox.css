@@ -1,0 +1,49 @@
+.search-box {
+    width: 40%;
+    justify-content: center;
+    /* margin-bottom: 2%; */
+    /* padding-bottom: 2%; */
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+.tm-search {
+    padding-top: 8%;
+    position: relative;
+    width: 100%;
+}
+
+.tm-search input {
+    width: 100%;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 14px;
+}
+
+.tm-search img {
+    position: absolute;
+    width: 17px;
+    top: 45%;
+    right: 12px;
+    margin: 0;
+}
+
+.recipe-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #333; /* 버튼 테두리 색상 */
+    color: #333; /* 버튼 텍스트 색상 */
+    background-color: #fff; /* 버튼 배경 색상 */
+    border-radius: 5px; /* 버튼 모서리 둥글게 만들기 */
+    transition: background-color 0.3s, color 0.3s; /* 부드러운 전환 효과 */
+}
+
+.recipe-button:hover {
+    background-color: #333; /* 호버 상태일 때 버튼 배경 색상 변경 */
+    color: #fff; /* 호버 상태일 때 버튼 텍스트 색상 변경 */
+}
